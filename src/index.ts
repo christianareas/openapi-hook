@@ -5,7 +5,7 @@ import { Oas_3_1_0_Type } from "./types"
 import {
 	OpenApiDataProvider,
 	useOpenApiData
-} from "./providers/OpenApiDataProvider"
+} from "./provider/OpenApiDataProvider"
 
 export {
 	Oas_3_1_0_Type,
