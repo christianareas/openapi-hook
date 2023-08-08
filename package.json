@@ -1,9 +1,9 @@
 {
-  "name": "openapi-components",
+  "name": "openapi-hook",
   "author": "Christian Areas <me@areas.me>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/christianareas/openapi-components"
+    "url": "https://github.com/christianareas/openapi-hook"
   },
   "license": "GPL-3.0",
   "version": "0.1.0",
@@ -27,8 +27,8 @@
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
-    "@types/node": "^20.4.4",
-    "@types/react": "^18.2.16",
+    "@types/node": "^20.4.8",
+    "@types/react": "^18.2.18",
     "@types/react-dom": "^18.2.7",
     "typescript": "^5.1.6"
   }
