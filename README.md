@@ -1,11 +1,9 @@
 # OpenAPI Hook
-`openapi-hook` is a (soon-to-be published) NPM module that takes your OpenAPI specification and returns a React hook. Use it to build your custom API documentation — styled to your exact specifications.
+Build your API documentation to your exact specifications. `openapi-hook` takes your OpenAPI specification and turns it into a type-safe object you can use to build your dream documentation site. It’s an alternative to the options that offer limited customizability or must be hosted on another site. And it’s open source and free to use. 
 
-This package officially supports OAS (OpenAPI Specification) 3.1.x. You may be able be able to use it with OAS 3.0.x files, but will likely run into issues. If you’d like to use this package, consider upgrading your OpenAPI specification to OAS 3.1.x.
+This soon-to-be published NPM module officially supports OAS (OpenAPI Specification) 3.1.x. You may be able to use it with OAS 3.0.x, but may experience issues. If you’d like to use this package, consider upgrading your OpenAPI specification to OAS 3.1.x.
 
-In addition, this package does not support references (`$ref`). This feature is on the roadmap. In the meantime, use [`json-ref-resolver`](https://github.com/stoplightio/json-ref-resolver) or [`swagger-cli`](https://github.com/APIDevTools/swagger-cli) to resolve your references.
-
-![GNU GPLv3 License Badge](https://img.shields.io/github/license/christianareas/openapi-hook)
+In addition, this package doesn’t support references (`$ref`). However, the feature is on the [roadmap](#roadmap). In the meantime, use [`json-ref-resolver`](https://github.com/stoplightio/json-ref-resolver) or [`swagger-cli`](https://github.com/APIDevTools/swagger-cli) to resolve your references.
 
 ## Table of Contents
 - [Install](#install)
@@ -48,7 +46,7 @@ npm link openapi-hook
 ### Set Up the OpenAPI Data Provider
 The OpenAPI data provider gives the OpenAPI data hook access to the data from your OpenAPI specification. You **must** set this up before you can use the hook.
 
-To set it up, import `OpenApiDataProvider`, use it to wrap your app or the API docs portion of your app, and pass it the URL to your OpenAPI file:
+To set it up, import `OpenApiDataProvider`, use it to wrap your app or the API docs portion of your app, and pass it the URL to your OpenAPI specification:
 
 ```tsx
 import { OpenApiDataProvider } from "openapi-hook"
@@ -132,14 +130,16 @@ npm unlink -g
 - ~~Add OpenAPI type definition (based on OAS 3.1).~~
 - ~~Add basic error handling.~~
 - ~~Add OpenAPI hook.~~
-- Add a docs site (Docusaurus) and publish it to GitHub Pages.
+- Add a docs site and publish it to GitHub Pages.
 - Add reference (`$ref`) support.
 
 ### Future
 - Add basic caching.
 - Add OAS 3.0 support.
-- Add component library (separate NPM module).
+- Add a component library (separate NPM module).
 
 
 ## License
 See [LICENSE (GNU GPLv3)](./LICENSE).
+
+![GNU GPLv3 License Badge](https://img.shields.io/github/license/christianareas/openapi-hook)
