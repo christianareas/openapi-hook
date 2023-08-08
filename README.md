@@ -1,5 +1,5 @@
 # OpenAPI Hook
-Build your API documentation to your exact specifications. `openapi-hook` takes your OpenAPI specification and turns it into a type-safe object you can use to build your dream documentation site. It’s an alternative to the options out there that offer limited customizability or must be hosted on another site. And it’s open source and free to use. 
+Build your API documentation to your exact specifications. `openapi-hook` takes your OpenAPI specification and turns it into a type-safe object you can use to build your dream documentation site. It’s an alternative to the options out there that offer limited customizability or must be hosted on another site. It’s open source and free to use. 
 
 This soon-to-be published NPM module officially supports OAS (OpenAPI Specification) 3.1.x. You may be able to use it with OAS 3.0.x, but may experience issues. If you’d like to use this package, consider upgrading your OpenAPI specification to OAS 3.1.x.
 
